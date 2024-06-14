@@ -2,9 +2,9 @@
   "name": "result-summary-component",
   "version": "1.0.0",
   "description": "Sitio Web con un Resultado Sumatorio hecho con html y tailwindcss",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx tailwindcss -i ./src/tailwind.css -o ./src/dist/app.css --watch"
   },
   "repository": {
     "type": "git",

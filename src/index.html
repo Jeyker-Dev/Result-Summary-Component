@@ -5,39 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./dist/app.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
+  <!-- Container Body of the Card   -->
+<main class="container mx-auto bg-white sm:mt-32 w-full sm:w-11/12 md:w-10/12 lg:w-7/12 grid grid-cols-1 grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 pb-10 sm:py-10">
   
-  Summary
+  <div class="flex flex-col items-center justify-center bg-gradient-to-b from-indigo-800 via-indigo-700 to-indigo-600 rounded-b-3xl sm:rounded-3xl py-10">
+  
+    <h2 class="text-center font-montserrat text-gray-300 text-lg sm:text-xl font-semibold sm:font-bold my-3 py-3">
+      Your Result
+    </h2>
 
-  Reaction
-  80 / 100
+    <div class="flex flex-col items-center justify-center w-36 h-36 sm:w-40 sm:h-40 md:w-48 md:h-48 bg-gradient-to-b from-indigo-800 via-indigo-700 to-indigo-600 rounded-full ">
+    
+      <span class="text-white font-bold font-hind text-5xl sm:text-6xl md:text-7xl">
+        76
+      </span>
 
-  Memory
-  92 / 100
+      <span class="text-gray-400 font-hind font-bold">
+        of 100
+      </span>
 
-  Verbal
-  61 / 100
+    </div>
 
-  Visual
-  72 / 100
+    <h2 class="font-monserrat text-white text-3xl sm:text-4xl font-semibold my-2 py-2">Great</h2>
 
-  Continue
+    <p class="font-hind text-sm sm:text-base text-gray-300 text-center w-5/6 mb-5 pb-4">You scored higher than 65% of the people who have taken these tests.</p>
+
+  </div>
+    
+  <div>
+    Summary
+  
+    Reaction
+    80 / 100
+  
+    Memory
+    92 / 100
+  
+    Verbal
+    61 / 100
+  
+    Visual
+    72 / 100
+  
+    Continue
+  </div>
+
+</main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
