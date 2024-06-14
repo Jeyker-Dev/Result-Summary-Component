@@ -1,0 +1,22 @@
+{
+  "name": "result-summary-component",
+  "version": "1.0.0",
+  "description": "Sitio Web con un Resultado Sumatorio hecho con html y tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeyker-Dev/Result-Summary-Component.git"
+  },
+  "author": "Jeyker-Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeyker-Dev/Result-Summary-Component/issues"
+  },
+  "homepage": "https://github.com/Jeyker-Dev/Result-Summary-Component#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
